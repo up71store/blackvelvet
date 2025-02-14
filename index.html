@@ -1,0 +1,374 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta name="title" content="sex girl ">
+<meta name="description" content="provide sex gril, video, call photos">
+<meta name="keywords" content="sex girl, sex ke liye ladkiya">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+
+  <title>
+   call ladies number,
+   call girlfriend number,
+call ladies phone number,
+india for sex,
+call aunties number,
+tamil sex phone number,
+sex call in india,
+sex ladkiyon ke number,
+aunty ka mobile number,
+call aunty service,
+call aunties phone number,
+tamil sex call number,
+call lady sex.
+ladkiyon ka sex number,
+call ladies near me,
+sex girl near me
+
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+ </head>
+ <body class="font-poppins">
+ <!-- Age Verification Popup -->
+<!-- Age Verification Popup -->
+<div id="agePopup" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex justify-center items-center z-50">
+   <div class="bg-white p-6 rounded-lg text-center max-w-md shadow-lg">
+       <h2 class="text-2xl font-bold mb-4">Are you 18 or older?</h2>
+       <p class="mb-4">You must be at least 18 years old to enter this website.</p>
+       <div class="flex justify-center space-x-4">
+           <button onclick="confirmAge(true)" class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg">Yes, I am 18+</button>
+           <button onclick="confirmAge(false)" class="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg">No</button>
+       </div>
+   </div>
+</div>
+
+<script>
+   function confirmAge(isAdult) {
+       if (isAdult) {
+           localStorage.setItem("isAdult", "true"); // Store age confirmation permanently
+           sessionStorage.setItem("sessionAgeVerified", "true"); // Prevent popup from showing during session
+           document.getElementById("agePopup").style.display = "none"; // Hide popup
+       } else {
+           window.location.href = "https://www.google.com"; // Redirect if under 18
+       }
+   }
+
+   // Ensure popup doesn't flicker on page refresh
+   document.addEventListener("DOMContentLoaded", function () {
+       if (localStorage.getItem("isAdult") === "true" || sessionStorage.getItem("sessionAgeVerified") === "true") {
+           document.getElementById("agePopup").style.display = "none"; // Hide if already verified
+       }
+   });
+</script>
+
+  <!-- Header -->
+  <header class="bg-black shadow-md">
+   <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-4xl text-white font-pacifico">
+         <a href="index.html">blackvelvet</a>
+     </div>
+     
+    <div>
+     <button class="text-white font-semibold mr-4">
+        <a href="privacy.html">Privacy Policy</a>
+       </button>
+       <button class="text-white font-semibold mr-4">
+        <a href="disclaimer.html">Disclaimer</a>
+       </button>
+       <button class="text-white font-semibold mr-4">
+        <a href="payment.html">Membership</a>
+       </button>
+    </div>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="relative">
+   <img alt="Hero background" class="w-full h-full object-cover" height="600" src="https://storage.googleapis.com/a1aa/image/UmMt2ukobZbw3QsEIHShXG8NgjJ8qFPYHXRs7YkVCvQ.jpg" width="1920"/>
+   <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white">
+    <h1 class="text-8xl font-bold mb-4">
+     Welcome to blackvelvet
+    </h1>
+    <p class="mb-10">
+     Indias #1 website for Adult ADS
+    </p>
+    <div class="relative w-full max-w-2xl flex">
+      <!-- Search Bar -->
+      <input class="w-full p-4 rounded-l-full text-black" placeholder="Looking for?" type="text" />
+  
+      <!-- State Selection -->
+      <select id="stateSelect" class="w-full p-4 text-black">
+          <option value="">Select State</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="in you area">in you area</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Tamil Nadu">Tamil Nadu</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+      </select>
+  
+      <!-- City Selection (Will Update Based on State) -->
+      <select id="citySelect" class="w-full p-4 text-black">
+          <option value="">Select City</option>
+      </select>
+  
+      <!-- Search Button -->
+      <button class="bg-black text-white px-8 rounded-r-full">
+          <i class="fas fa-search"></i>
+      </button>
+  </div>
+  
+  <script>
+    const citiesByState = {
+        "Maharashtra": ["Mumbai", "Pune", "Nagpur"],
+        "in you area": ["New in you area", "Dwarka", "Rohini"],
+        "Karnataka": ["Bangalore", "Mysore", "Hubli"],
+        "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"],
+        "Uttar Pradesh": ["Lucknow", "Kanpur", "Varanasi"]
+    };
+  
+    document.getElementById("stateSelect").addEventListener("change", function() {
+        const selectedState = this.value;
+        const citySelect = document.getElementById("citySelect");
+        
+        // Clear previous city options
+        citySelect.innerHTML = '<option value="">Select City</option>';
+  
+        if (citiesByState[selectedState]) {
+            citiesByState[selectedState].forEach(city => {
+                const option = document.createElement("option");
+                option.value = city;
+                option.textContent = city;
+                citySelect.appendChild(option);
+            });
+        }
+    });
+  </script>
+  
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- Most Searched Locations -->
+  <section class="py-16" >
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-8">
+     Most Searched locations in India
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+     <div class="relative">
+      <img alt="Escort in Mumbai" class="w-full h-full object-cover rounded" height="300" src="assets/mumbai.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+      <a href="select.html">Escort in Tripura</a> 
+      </div>
+     </div>
+     <div class="relative">
+      <img alt="Escort in in you area" class="w-full h-full object-cover rounded" height="300" src="https://storage.googleapis.com/a1aa/image/fT7sAD6pcBPIum1Y9PUAvIEdHOwZpTBmSUBXiUZ3VIw.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+         <a href="select.html">Escort in Mizoram</a>
+      </div>
+     </div>
+     <div class="relative">
+      <img alt="Escort in Bangalore" class="w-full h-full object-cover rounded" height="300" src="https://storage.googleapis.com/a1aa/image/Ecpp5iDZdJfOkPkN0kkoUFadoz-6gHGihlt4fQnDt90.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+         <a href="select.html">Escort in Manipur</a>
+      </div>
+     </div>
+     <div class="relative">
+      <img alt="Escort in Hyderabad" class="w-full h-full object-cover rounded" height="300" src="assets/imag.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+       <a href="select.html">Escort in Odisha</a>
+      </div>
+     </div>
+     <div class="relative">
+      <img alt="Escort in Ahmedabad" class="w-full h-full object-cover rounded" height="300" src="https://storage.googleapis.com/a1aa/image/hbTrIDouF8T2zkuVpjjEVz8xzZQK--ONw1zQy2XwvtQ.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+         <a href="select.html">Escort in Kanpur</a>
+      </div>
+     </div>
+     <div class="relative">
+      <img alt="Escort in Chennai" class="w-full h-full object-cover rounded" height="300" src="assets/Varsha.webp" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+       <a href="select.html">Escort in Arunachal Pradesh</a>
+      </div>
+     </div>
+     <div class="relative">
+      <img alt="Escort in Kolkata" class="w-full h-full object-cover rounded" height="300" src="https://storage.googleapis.com/a1aa/image/gVChYFqyYDfqYPmVa-HABPe9F4SzqcKtFxovKJxwvUg.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+         <a href="select.html">Escort in Kolkata</a>
+      </div>
+     </div>
+     <div class="relative">
+      <img alt="Escort in Surat" class="w-full h-full object-cover rounded" height="300" src="https://storage.googleapis.com/a1aa/image/EOSgbS_RKew5R6ocHsIV-l-QkehDtHavlm6ICgeeoN0.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+         <a href="select.html">Escort in Surat</a>
+      </div>
+     </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Top Searches --> <a href="payment.html">
+  <section class="py-16 bg-gray-100">
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-8">
+     Top Searches in India
+    </h2>
+    <div class="flex flex-wrap justify-center gap-2">
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Shemale sex service in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Erotic massage in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Bhabhi Escort in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Hand cash call girls in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Nude video call service in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Sex girl number in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Night sex service in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Siska in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Indian escort in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Free sex video call in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Aunty girls in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Telugu sex phone number in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Russian sex service in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Tamil sex girls in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Call Friendship in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Whatsapp sex chat in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Phone sex call in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Kannada sex girl in India
+     </span>
+     <span class="bg-white px-4 py-2 rounded shadow">
+      Call girls in India
+     </span>
+    </div>
+   </div>
+  </section>
+</a>
+  <!-- SimplyCam Section -->
+  <section class="py-16 bg-gray-900 text-white">
+   <div class="container mx-auto flex flex-col items-center">
+    <div class="relative w-full max-w-2xl mb-8">
+     <a href="https://simplycam.live/?affiliateId=140225b5vpxw6ibd822lrqb5tg5occvl1aeircp41py34qc6acawi61l02s2v5eb&realDomain=go.simplycam.live&referrer=https%3A%2F%2Fwww.simpleescorts.in%2F&stripbotVariation=NullWidget&utm_content=home&utm_medium=banner&utm_source=simpleescorts"><img alt="SimplyCam live interaction" class="w-full h-full object-cover rounded" height="300" src="/simplycam-desktop.png" width="500"/></a>
+  </section>      
+  <!-- Promote Your Ad Section -->
+  <section class="py-16 bg-gray-100">
+   <div class="container mx-auto text-center">
+    <h2 class="text-2xl font-bold mb-4">
+     Want more?
+    </h2>
+    <p class="mb-8">
+     Escorts and Call Girls can post ads for free or buy Turbo Ads for an extra boost
+    </p>
+    <button class="bg-blue-600 text-white px-8 py-4 rounded-full">
+     PROMOTE YOUR AD
+    </button>
+   </div>
+  </section>
+  <!-- Testimonial section -->
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-16">
+   <div class="container mx-auto flex flex-col md:flex-row justify-between">
+    <div class="mb-8 md:mb-0">
+     <div class="text-2xl font-bold mb-4">
+      blackvelvet
+     </div>
+     <p class="mb-4">
+      The #1 website for Adult ADS in India for Female Escorts and Transsexuals.
+     </p>
+     <img alt="RTA Logo" class="mb-4" height="50" src="https://storage.googleapis.com/a1aa/image/gMt2D5__XIJUsK5vWhOXEyuSKUwPCTuRDOhrmnRKumo.jpg" width="100"/>
+    </div>
+    <div class="flex flex-col md:flex-row gap-8">
+     <div>
+      <h3 class="font-bold mb-4">
+       Product
+      </h3>
+      <ul>
+       <li class="mb-2">
+        <a class="text-gray-400" href="#">
+         All Cities
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="text-gray-400" href="#">
+         Promote your ad
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="text-gray-400" href="#">
+         Activate the PRO
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="text-gray-400" href="#">
+         Post your Ad
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="text-gray-400" href="#">
+         Blog
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="font-bold mb-4">
+       Company
+      </h3>
+      <ul>
+       <li class="mb-2">
+        <a class="text-gray-400" href="#">
+         About Us
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="text-gray-400" href="#">
+         Partners
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="text-gray-400" href="#">
+         Contact Us
+        </a>
+      </li>
+   </head>
+   </html>
+      
